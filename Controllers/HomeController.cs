@@ -10,34 +10,29 @@ namespace ParkFinder.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet("")]
+        [HttpGet("home")]
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
 
-            return View();
-        }
 
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
 
-            return View();
-        }
-
-        public IActionResult Privacy()
+        [HttpGet("trail")]
+        public IActionResult Trail()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+
+        [HttpGet("addtrail")]
+        public IActionResult AddTrail()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
+
     }
 }

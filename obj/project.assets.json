@@ -11501,23 +11501,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aaron\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/maad/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aaron\\Desktop\\C#_folder\\ParkFinder\\ParkFinder.csproj",
+      "projectUniqueName": "/Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/ParkFinder.csproj",
       "projectName": "ParkFinder",
-      "projectPath": "C:\\Users\\Aaron\\Desktop\\C#_folder\\ParkFinder\\ParkFinder.csproj",
-      "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aaron\\Desktop\\C#_folder\\ParkFinder\\obj\\",
+      "projectPath": "/Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/ParkFinder.csproj",
+      "packagesPath": "/Users/maad/.nuget/packages/",
+      "outputPath": "/Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/maad/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
