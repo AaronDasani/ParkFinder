@@ -15,9 +15,7 @@
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/ParkFinder.TagHelpers.output.cache
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/ParkFinder.RazorCoreGenerate.cache
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
-/Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
-/Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/ParkFinder.RazorTargetAssemblyInfo.cache
@@ -26,3 +24,5 @@
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/ParkFinder.dll
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/ParkFinder.pdb
 /Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/ParkFinder.csproj.CopyComplete
+/Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/Home/trail.g.cshtml.cs
+/Users/maad/Desktop/C#_Folder/Web_Section/ParkFinder/obj/Debug/netcoreapp2.1/Razor/Views/Home/newTrailForm.g.cshtml.cs

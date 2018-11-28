@@ -1,0 +1,42 @@
+@model Trail
+<title>New Trail</title>
+<div class="row mt-5 mb-5 ">
+    <h3 class="font-weight-light col-11 mb-0">Add a new Trail</h3>
+    <a href="home" class="btn btn-sm btn-primary shadow ">Go Home</a>
+</div>
+
+<hr>
+
+<form action="addtrailProccess" method="post" class="col-6">
+    <div class="form-group">
+        <label asp-for="name"></label>
+        <input asp-for="name" class="form-control" placeholder="Enter Name">
+        <small  class="form-text text-danger font-weight-bold"><span asp-validation-for="name"></span></small>
+    </div>
+    <div class="form-group">
+        <label asp-for="description"></label>
+        <input asp-for="description" class="form-control" placeholder="Enter description">
+        <small  class="form-text text-danger font-weight-bold"><span asp-validation-for="description"></span></small>
+    </div>
+    <div class="form-group">
+        <label asp-for="trailLength"></label>
+        <input asp-for="trailLength" class="form-control" placeholder="Enter Trail Length">
+        <small  class="form-text text-danger font-weight-bold"><span asp-validation-for="trailLength"></span></small>
+    </div>
+    <div class="form-group">
+        <label asp-for="elevation"></label>
+        <input asp-for="elevation" class="form-control" placeholder="Enter Elevation">
+        <small  class="form-text text-danger font-weight-bold"><span asp-validation-for="elevation"></span></small>
+    </div>
+    <div class="form-group">
+        <label asp-for="longtitude"></label>
+        <input asp-for="longtitude" class="form-control" placeholder="Enter longtitude">
+        <small  class="form-text text-danger font-weight-bold"><span asp-validation-for="longtitude"></span></small>
+    </div>
+    <div class="form-group">
+        <label asp-for="latitude"></label>
+        <input asp-for="latitude" class="form-control" placeholder="Enter latitude">
+        <small  class="form-text text-danger font-weight-bold"><span asp-validation-for="latitude"></span></small>
+    </div>
+    <button type="submit" value="submit" class="btn btn-lg btn-success shadow"> Create Record!</button>
+</form>

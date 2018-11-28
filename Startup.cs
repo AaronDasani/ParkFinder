@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using ParkFinder.Factory;
 namespace ParkFinder
 {
     public class Startup
@@ -20,7 +20,7 @@ namespace ParkFinder
         }
 
         public IConfiguration Configuration { get; }
-
+        
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -31,8 +31,9 @@ namespace ParkFinder
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.Configure<MySqlOptions>(Configuration.GetSection("DBInfo"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddScoped<TrailFactory>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

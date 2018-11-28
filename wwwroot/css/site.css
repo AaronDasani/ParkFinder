@@ -18,10 +18,6 @@ body {
     line-height: 1.4;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
-}
 
 /* QR code generator */
 #qrCode {
@@ -34,4 +30,13 @@ body {
     .carousel-caption {
         display: none;
     }
+}
+
+#map{
+    height: 300px;
+    width: 500px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
 }
